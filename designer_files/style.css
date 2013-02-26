@@ -1,0 +1,70 @@
+.colorThumbnail{ float:left; width:40px; height:40px; cursor:pointer; border: 2px solid #FFFFFF; background:url(images/materials.jpg) no-repeat; margin: 4px;}
+.colorSelected{border: 2px solid #000000;}
+.m_category{width:95%; padding-left:5%;}
+.m_category span{float:left; font-family:Arial; width:100%; height:24px; font-size: 16px; margin-top:14px;}
+.m_category div{float:left; }
+.tooltip{position:absolute; left:0px; top:0px; display:none; background-color:#000; font-family:Arial; font-size: 13px; color: #FFF; padding:7px; z-index:6;}
+
+.texture_option_chosen{float:left; overflow:hidden; font-family:Arial; width:100%; font-size: 14px; margin-bottom:5px; text-align: center;}
+.remove_option{right:0;top:6;position:absolute; width:24px; height:24px; color:#FFF; cursor:pointer}
+
+.titleBar{position:relative; background-color:#000; width:100%; height:35px; color:#FFF; font-family:Arial; font-size:16px; cursor:move}
+.3dview{width:700px; height:550px; position:absolute; top:100px; left:100px; border:2px solid #000000; background-color:#000;}
+
+.niddle{ position:absolute; left:0px; top:0px; width:30px; height:30px; display:block;}
+.niddle .material{ position:absolute; left:0px; top:0px; background-image:url(images/red.jpg); width:30px; height:30px;}
+.niddle .top{ position:absolute; left:0px; top:0px; background:url(images/selector.png) no-repeat; width:30px; height:30px; cursor:pointer;}
+.n-selected{  background:url(images/selector.png) no-repeat 0px -30px !important;}
+.n-unselected{  background:url(images/selector.png) no-repeat 0px 0px;}
+
+#goleft{ margin: 0px; height: 30px;	float:left; padding: 5px 5px 1px 5px; width: 70px; cursor:pointer}
+#goright{ margin: 0px; height: 30px; float:right; padding: 5px 5px 1px 5px; width: 70px; cursor:pointer}
+#goleft img{float :right;}
+#goright img{float :left;}	
+
+.loaderStyle{position:absolute; width:100%; height:100%; background-color:#FFF; opacity:0.6; filter: alpha(opacity = 60); z-index:7; display:none;}
+.visible-on{display:block}
+.visible-off{display:none}
+
+
+.chooseModel{width:980px; margin:0 auto; text-align:center; }
+.chooseModel span{font-size:26px;}
+.chooseModel .content{width:960px; float:left; padding-top:20px;}
+.chooseModel .content .model{position:relative; float:left; width:240px; height:180px; overflow:hidden;}
+.chooseModel .content .csoon{position:relative; float:left; width:240px; height:180px; overflow:hidden;}
+.chooseModel .content .model img{position:absolute; left:0px; right:0px; display:none;}
+
+#header{position:absolute; background: none repeat scroll 0pt 0pt rgb(51, 51, 51); width: 100%; z-index:99;}
+#coolMenu{
+	list-style: none; margin:0px 0px 0px 300px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold;
+}
+#coolMenu > li {
+	float: left;
+}
+#coolMenu li a {
+	display: block; color:#FFF;
+	height: 2em;
+	line-height: 2em;
+	padding: 8px 1.5em;
+	text-decoration: none;
+}
+#coolMenu li a:hover{
+	display: block; color:#FFF;
+	background:#666;
+	text-decoration: none;
+}
+#coolMenu ul {
+	list-style: none;
+	position: absolute;
+	display: none;
+	z-index: 999;
+}
+#coolMenu ul li a {
+	width: 140px; background:#333; color:#FFF;
+}
+#coolMenu ul li a:hover {
+	width: 140px; background:#666 !important; color:#9F0;
+}
+#coolMenu li:hover ul {
+	display: block; 
+}

@@ -1,0 +1,67 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+		<link rel="stylesheet" href="designer_files/style.css">
+		<script type="text/javascript" src="designer_files/jquery-1.js"></script>
+		<script type="text/javascript" src="designer_files/jquery.htm"></script>
+		<script type="text/javascript" src="designer_files/jquery-ui.js"></script>
+		<script type="text/javascript" src="designer_files/parseuri.js"></script>
+	</head>
+	<body style="margin: auto;"> 
+	      <!---START MENU    -->
+		  <div id="header">		  
+			<ul id="coolMenu">
+				<li><a href="#">RETURN TO MAIN MENU</a></li>
+				<li><a href="#">TOE</a></li>
+				<li><a href="#">BACK</a></li>
+				<li><a href="#">HEELS</a></li>		
+				<li><a href="#">CHANGE MODEL</a>
+					<!--<ul>
+						<li><a href="#">FIRST MODEL </a></li>
+						<li><a href="#">SECOND MODEL</a></li>
+					</ul> -->
+				</li>		
+			</ul> 
+		 </div>
+			<div class="lrLayer" style="position: absolute; width: 185px; height: 40px; background-color: rgb(0, 0, 0); z-index: 7; top: 558px; left: 590.5px;">
+				<div id="goleft" class="move-btn"><img style="padding-right: 0px;" src="designer_files/left-arrow.png"></div>
+				<div id="goright" class="move-btn"><img style="padding-left: 0px;" src="designer_files/right-arrow.png"></div>
+			</div>
+			<div id="material_option" style="position:absolute; top:60px; left:20px; border: 1px solid #000; width:240px; height:310px; background-color:#F2F2F2; z-index:4;">
+				<div class="titleBar">
+					<img src="designer_files/move.png" style="position: absolute; left: 10px; top: 5px;"><span style="position:absolute; left:42px; top:8px;">Choose a Material...</span>
+				</div>
+				<div id="material_list" style="position:relative; float:left; width:238px; height:275px; overflow:auto;"><div class="m_category"><span>PatentLeather</span><div id="M21" class="colorThumbnail" src="images/red.jpg" alt="PatentLeather - Red" style="background-position: -0px -120px;"></div><div id="M22" class="colorThumbnail" src="images/orange.jpg" alt="PatentLeather - Orange" style="background-position: -40px -120px;"></div><div id="M23" class="colorThumbnail" src="images/yellow_1.jpg" alt="PatentLeather - Yellow" style="background-position: -80px -120px;"></div><div id="M24" class="colorThumbnail" src="images/green.jpg" alt="PatentLeather - Green" style="background-position: -120px -120px;"></div><div id="M25" class="colorThumbnail" src="images/apple_green.jpg" alt="PatentLeather - Apple Green" style="background-position: -160px -120px;"></div><div id="M26" class="colorThumbnail colorSelected" src="images/blue.jpg" alt="PatentLeather - Blue" style="background-position: -200px -120px;"></div><div id="M27" class="colorThumbnail" src="images/midnight_blue.jpg" alt="PatentLeather - Midnight Blue" style="background-position: -240px -120px;"></div><div id="M28" class="colorThumbnail" src="images/nude.jpg" alt="PatentLeather - Nude" style="background-position: -280px -120px;"></div><div id="M29" class="colorThumbnail" src="images/pink.jpg" alt="PatentLeather - Pink" style="background-position: -320px -120px;"></div><div id="M30" class="colorThumbnail" src="images/dark_purple.jpg" alt="PatentLeather - Dark Purple" style="background-position: -360px -120px;"></div></div><div class="m_category"><span>Soft Leather</span><div id="M31" class="colorThumbnail" src="images/red.jpg" alt="Soft Leather - Red" style="background-position: -0px -160px;"></div><div id="M32" class="colorThumbnail" src="images/dark_tan.jpg" alt="Soft Leather - Brown/Dark Tan" style="background-position: -40px -160px;"></div><div id="M33" class="colorThumbnail" src="images/tan.jpg" alt="Soft Leather - Tan" style="background-position: -80px -160px;"></div><div id="34" class="colorThumbnail" src="images/yellow.jpg" alt="Soft Leather - Yellow" style="background-position: -120px -160px;"></div><div id="M35" class="colorThumbnail" src="images/olive_green.jpg" alt="Soft Leather - olive Green" style="background-position: -160px -160px;"></div><div id="M36" class="colorThumbnail" src="images/light_green.jpg" alt="Soft Leather - Light Green" style="background-position: -200px -160px;"></div></div></div>
+				<div class="remove_option">X</div>
+			</div>
+			
+			<div id="texture_option" style="position: absolute; overflow: hidden; top: 400px; left: 20px; border: 1px solid rgb(0, 0, 0); width: 320px; height: 240px; background-color: rgb(242, 242, 242); z-index: 5;">
+				<div class="titleBar">
+					<img src="designer_files/move.png" style="position: absolute; left: 10px; top: 5px;"><span style="position:absolute; left:42px; top:8px;">Material Recommendations</span>
+				</div>
+				<div style="position:absolute; width:280px; left:20px; top:40px;">
+					<span class="texture_option_chosen">You've chosen  Blue PatentLeather </span>
+					<img src="designer_files/blue.jpg" class="material_tex" style="width: 100%; border: 1px solid rgb(0, 0, 0);">
+					<span style="width:100%">I think these will look amazing with your selection!</span>
+				</div>
+				<div class="remove_option">X</div>
+			</div>
+			
+			<div id="3dview" style="width: 700px; height: 480px; position: absolute; overflow: hidden; z-index: 1; top: 59px; left: 333px;">
+				<div id="mask" style="width:640px; height:480px; position:absolute; z-index:9; background-color:#FF0; opacity:0; filter: alpha(opacity = 0);"></div>
+				<div id="helper" style="width:640px; height:480px; position:absolute; z-index:10;"><div id="tlpForIcn"></div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div><div id="tlpForIcn"> </div></div>
+			<img src="designer_files/generate_007.png" id="view_0" class="viewImgRotating" count="0" style="position: absolute; top: 0px; left: 0px; display: none;" status="1"><img src="designer_files/generate_003.png" id="view_1" class="viewImgRotating" count="1" style="position: absolute; top: 0px; left: 0px; display: none;" status="1"><img src="designer_files/generate_006.png" id="view_2" class="viewImgRotating" count="2" style="position: absolute; top: 0px; left: 0px; display: none;" status="1"><img src="designer_files/generate_002.png" id="view_3" class="viewImgRotating" count="3" style="position: absolute; top: 0px; left: 0px; display: none;" status="1"><img src="designer_files/generate_008.png" id="view_4" class="viewImgRotating" count="4" style="position: absolute; top: 0px; left: 0px; display: none;" status="1"><img src="designer_files/generate_004.png" id="view_5" class="viewImgRotating" count="5" style="position: absolute; top: 0px; left: 0px; display: none;" status="1"><img src="designer_files/generate.png" id="view_6" class="viewImgRotating" count="6" style="position: absolute; top: 0px; left: 0px; display: none;" status="1"><img src="designer_files/generate_005.png" id="view_7" class="viewImgRotating" count="7" style="position: absolute; top: 0px; left: 0px; display: block;" status="1"></div>
+			
+			<div style="left: 95px; top: 128px; display: block;" class="tooltip"><span>PatentLeather - Red</span></div>
+			<!------------------------------------  BUG TRACKER  -------------------------------------------->
+			<!--<textarea id="ta" style="float:right; position:absolute; top:200px; right:5px" rows="20" cols="35"></textarea> --> 					
+			<div style="display: none;" class="loaderStyle visible-on">
+				<div id="loader" style="width: 200px; height: 115px; position: absolute; top: 241.5px; left: 583px;">
+					<img src="designer_files/loader.gif" style="position: absolute; left: 70px; top: 0px;">
+					<span class="percentage" style="position:absolute; width:100%; text-Align:center; top:22px; font-size:11px;">100%</span>
+					<span style="position:absolute; width:100%; text-Align:center; top:70px;">Generating Preview</span>
+					<span style="position:absolute; width:100%; text-Align:center; top:90px;">please wait...</span>
+				<div>
+			</div>
+	
+
+<script type="text/javascript" src="designer_files/logic.js"></script></div></div></body></html>

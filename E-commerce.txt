@@ -1,0 +1,18 @@
+Dear Team nano,
+
+Our company manufactures shoes and we would like to offer our customers the option to design a shoe in 3d on our website, with all aspects of the shoe customisable.
+
+Please refer to these two links as examples of the level of website detail and shoe customisation we are expecting from you:
+
+NikeID - http://store.nike.com/us/en_us/product/free-run-id-running-shoe/?piid=28925&pbid=266892686#?pbid=266892686
+
+Shoes of Prey - http://www.shoesofprey.com/3d/designer?p=CB7PP94&h=thick
+
+
+You will need to build a selection process for the user to pick out the type of shoe they want based on a few variables shoe style, material colour, stitching colour, sole colour, binding colour, logo colour, label colour etc etc
+The customer will then need to be able to purchase this boot through a shopping cart. At this stage, you do not need to quote on the shopping cart. Just the design customisation process.
+
+We can provide you with the shoe styles in 3D Max
+We will also provide you with the colour options and material sample swatches in JPEG, but you are to create the rest. 
+
+Please provide undertsanding summary and your questions if any along with time eestimates for completion.
